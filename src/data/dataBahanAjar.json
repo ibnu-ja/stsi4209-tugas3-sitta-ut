@@ -1,0 +1,185 @@
+{
+  "upbjjList": [
+    "Jakarta",
+    "Surabaya",
+    "Makassar",
+    "Padang",
+    "Denpasar"
+  ],
+  "kategoriList": [
+    "MK Wajib",
+    "MK Pilihan",
+    "Praktikum",
+    "Problem-Based"
+  ],
+  "pengirimanList": [
+    { "kode": "REG", "nama": "Reguler (3-5 hari)" },
+    { "kode": "EXP", "nama": "Ekspres (1-2 hari)" }
+  ],
+  "paket": [
+    {
+      "kode": "PAKET-UT-001",
+      "nama": "PAKET IPS Dasar",
+      "isi": ["EKMA4116", "EKMA4115"],
+      "harga": 120000
+    },
+    {
+      "kode": "PAKET-UT-002",
+      "nama": "PAKET IPA Dasar",
+      "isi": ["BIOL4201", "FISIP4001"],
+      "harga": 140000
+    }
+  ],
+  "stok": [
+    {
+      "kode": "EKMA4116",
+      "judul": "Pengantar Manajemen",
+      "kategori": "MK Wajib",
+      "upbjj": "Jakarta",
+      "lokasiRak": "R1-A3",
+      "harga": 65000,
+      "qty": 28,
+      "safety": 20,
+      "catatanHTML": "<em>Edisi 2024, cetak ulang</em>"
+    },
+    {
+      "kode": "EKMA4115",
+      "judul": "Pengantar Akuntansi",
+      "kategori": "MK Wajib",
+      "upbjj": "Jakarta",
+      "lokasiRak": "R1-A4",
+      "harga": 60000,
+      "qty": 7,
+      "safety": 15,
+      "catatanHTML": "<strong>Cover baru</strong>"
+    },
+    {
+      "kode": "BIOL4201",
+      "judul": "Biologi Umum (Praktikum)",
+      "kategori": "Praktikum",
+      "upbjj": "Surabaya",
+      "lokasiRak": "R3-B2",
+      "harga": 80000,
+      "qty": 12,
+      "safety": 10,
+      "catatanHTML": "Butuh <u>pendingin</u> untuk kit basah"
+    },
+    {
+      "kode": "FISIP4001",
+      "judul": "Dasar-Dasar Sosiologi",
+      "kategori": "MK Pilihan",
+      "upbjj": "Makassar",
+      "lokasiRak": "R2-C1",
+      "harga": 55000,
+      "qty": 2,
+      "safety": 8,
+      "catatanHTML": "Stok <i>menipis</i>, prioritaskan reorder"
+    },
+    {
+      "kode": "STSI4209",
+      "judul": "Pemrograman Berbasis Web (Praktikum)",
+      "kategori": "Praktikum",
+      "upbjj": "Jakarta",
+      "lokasiRak": "R1-B1",
+      "harga": 90000,
+      "qty": 65,
+      "safety": 30,
+      "catatanHTML": "<strong>Modul praktikum terbaru</strong>"
+    },
+    {
+      "kode": "STSI4206",
+      "judul": "Proses Bisnis",
+      "kategori": "MK Wajib",
+      "upbjj": "Surabaya",
+      "lokasiRak": "R2-A1",
+      "harga": 75000,
+      "qty": 110,
+      "safety": 40,
+      "catatanHTML": "Cetakan <em>2026</em>"
+    },
+    {
+      "kode": "STSI4207",
+      "judul": "Sistem Informasi Manajemen",
+      "kategori": "MK Wajib",
+      "upbjj": "Padang",
+      "lokasiRak": "R1-C2",
+      "harga": 70000,
+      "qty": 0,
+      "safety": 25,
+      "catatanHTML": "<strong>Stok kosong</strong>, tunggu jadwal cetak"
+    },
+    {
+      "kode": "STSI4208",
+      "judul": "Analisis dan Perancangan Sistem",
+      "kategori": "MK Wajib",
+      "upbjj": "Denpasar",
+      "lokasiRak": "R3-A2",
+      "harga": 85000,
+      "qty": 14,
+      "safety": 15,
+      "catatanHTML": "<em>Revisi silabus</em>"
+    }
+  ],
+  "tracking": {
+    "DO2025-001": {
+      "nim": "054890095",
+      "nama": "Ibnu Jihad Aminuddin",
+      "status": "Dalam Perjalanan",
+      "progress": 60,
+      "ekspedisi": "JNE Regular (3-5 hari)",
+      "tanggalKirim": "25 Agustus 2025",
+      "paket": "PAKET-UT-001",
+      "total": 120000,
+      "perjalanan": [
+        { "waktu": "2025-08-25 10:12:20", "keterangan": "Penerimaan di Loket: TANGSEL" },
+        { "waktu": "2025-08-25 14:07:56", "keterangan": "Tiba di Hub: JAKSEL" },
+        { "waktu": "2025-08-26 08:44:01", "keterangan": "Diteruskan ke Kantor Tujuan" }
+      ]
+    },
+    "DO2025-002": {
+      "nim": "041234567",
+      "nama": "Ahmad Fauzi",
+      "status": "Dalam Pengiriman",
+      "progress": 75,
+      "ekspedisi": "JNE Express (1-2 hari)",
+      "tanggalKirim": "15 Oktober 2025",
+      "paket": "PAKET-UT-002",
+      "total": 140000,
+      "perjalanan": [
+        { "waktu": "2025-10-15 09:10:00", "keterangan": "Penerimaan di Loket: TANGSEL" },
+        { "waktu": "2025-10-15 18:30:00", "keterangan": "Tiba di Hub: JAKSEL" },
+        { "waktu": "2025-10-16 07:45:00", "keterangan": "Diteruskan ke Kantor Tujuan" }
+      ]
+    },
+    "DO2025-003": {
+      "nim": "049876543",
+      "nama": "Siti Nurhaliza",
+      "status": "Pesanan Dikemas",
+      "progress": 35,
+      "ekspedisi": "JNE Regular (3-5 hari)",
+      "tanggalKirim": "17 Oktober 2025",
+      "paket": "PAKET-UT-001",
+      "total": 120000,
+      "perjalanan": [
+        { "waktu": "2025-10-17 10:05:00", "keterangan": "Pendaftaran DO di Loket SITTA" },
+        { "waktu": "2025-10-17 15:40:00", "keterangan": "Pengemasan di Gudang UT Pusat" }
+      ]
+    },
+    "DO2025-004": {
+      "nim": "045678901",
+      "nama": "Dian Pratama",
+      "status": "Telah Diterima",
+      "progress": 100,
+      "ekspedisi": "JNE Regular (3-5 hari)",
+      "tanggalKirim": "12 Oktober 2025",
+      "paket": "PAKET-UT-002",
+      "total": 140000,
+      "perjalanan": [
+        { "waktu": "2025-10-12 08:20:00", "keterangan": "Penerimaan di Loket: TANGSEL" },
+        { "waktu": "2025-10-12 16:00:00", "keterangan": "Tiba di Hub: JAKSEL" },
+        { "waktu": "2025-10-13 09:15:00", "keterangan": "Diteruskan ke Kantor Tujuan" },
+        { "waktu": "2025-10-14 11:30:00", "keterangan": "Telah diterima mahasiswa" }
+      ]
+    }
+  }
+}
